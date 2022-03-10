@@ -564,7 +564,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &578580351
 RectTransform:
   m_ObjectHideFlags: 0
@@ -1390,8 +1390,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   isGameover: 0
-  scoreText: {fileID: 0}
-  gameoverUI: {fileID: 0}
+  scoreText: {fileID: 561553315}
+  gameoverUI: {fileID: 578580350}
 --- !u!4 &2110476921
 Transform:
   m_ObjectHideFlags: 0

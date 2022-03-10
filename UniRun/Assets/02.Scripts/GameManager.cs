@@ -51,7 +51,7 @@ public class GameManager : MonoBehaviour
     }
 
     //점수를 증가시키는 메서드
-    public void AddScore(int newScore)
+    public void AddScore(int newScore) // (int newScore)-> 정수로 표현
     {
         //게임오버가 아니라면
         if(!isGameover) // =if (isGameover) return;
@@ -68,7 +68,9 @@ public class GameManager : MonoBehaviour
     //플레이어캐릭터가 사망시 게임오버를 실행하는 메서드
     public void OnPlayerDead()
     {
+        // 현재 상태를 게임오버 상태로 변경
         isGameover = true;
+        //게임오버 UI를 활성화
         gameoverUI.SetActive(true);
     }
 }
